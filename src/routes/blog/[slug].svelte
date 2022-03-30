@@ -2,4 +2,4 @@
 	export let slug;
 </script>
 
-<h1>{slug}</h1>
+<h1>Hello, {slug}</h1>
