@@ -4,7 +4,6 @@ export const get = async (req) => {
     const date = new Date().toLocaleString()
     return {
       status: 200,
-      maxage: 15,
       body: { slug, date }
     }
   }
